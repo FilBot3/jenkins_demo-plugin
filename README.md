@@ -2,13 +2,21 @@
 
 Resource: [Jenkins Plugin Development Tutorial](https://jenkins.io/doc/developer/tutorial/)
 
+## Build the Project
+
+```bash
+mvn verify
+mvn hpi:run
+```
+
 Right now, the last bit of the tutorial is having issues with the few Jelly lines
 
 ```xml
 <st:include page="sidepanel.jelly" it="${it.run}" optional="true" />
 ```
+*I had to build this job and replace the line above 5 times before it worked.*
 
-When that line is removed, the stack trace goes away. With the line in the index.jelly file, the stack traces is as follows.
+When that line is removed, the stack trace goes away, OR I can add a `-` to `side-panel` and the error doesn't show, but the additions do not. With the line in the index.jelly file, the stack traces is as follows.
 
 
 ```
