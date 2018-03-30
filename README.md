@@ -12,7 +12,13 @@ When that line is removed, the stack trace goes away. With the line in the index
 
 
 ```
-A problem occurred while processing the request. Please check our bug tracker to see if a similar problem has already been reported. If it is already reported, please vote and put a comment on it to let us gauge the impact of the problem. If you think this is a new issue, please file a new issue. When you file an issue, make sure to add the entire stack trace, along with the version of Jenkins and relevant plugins. The users list might be also useful in understanding what has happened.
+A problem occurred while processing the request. Please check our bug tracker to see if a
+similar problem has already been reported. If it is already reported, please vote and put
+a comment on it to let us gauge the impact of the problem. If you think this is a new
+issue, please file a new issue. When you file an issue, make sure to add the entire stack
+trace, along with the version of Jenkins and relevant plugins. The users list might be
+also useful in understanding what has happened.
+
 Stack trace
 
 javax.servlet.ServletException: org.apache.commons.jelly.JellyException: Could not parse Jelly script : file:/C:/Users/Phillip/Desktop/jenkins_learning/demo-plugin/src/main/resources/io/jenkins/plugins/sample/HelloWorldAction/index.jelly
